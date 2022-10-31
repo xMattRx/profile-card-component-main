@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: hsl(185deg, 75%, 39%);
+  overflow: hidden;
+}
+
+.circle-1 {
+  position: absolute;
+  top: -500px;
+  left: -300px;
+}
+
+.circle-2 {
+  position: absolute;
+  bottom: -600px;
+  right: -230px;
+}/*# sourceMappingURL=style.css.map */
