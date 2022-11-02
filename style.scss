@@ -7,6 +7,7 @@
 body {
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
+    height: 100vh;
 }
 
 .circle-1 {
@@ -20,4 +21,21 @@ body {
     position: absolute;
     bottom: -600px;
     right: -230px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+
+        .card-header {
+            background: url('./images/bg-pattern-card.svg');
+            width: 100px;
+        }
+    }
 }
