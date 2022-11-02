@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
-  padding: 0px;
+  font-family: "Kumbh Sans", sans-serif;
   margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
   border-top-right-radius: 15px;
   height: 160px;
   position: relative;
-  width: 390px;
+  width: 400px;
 }
 .container .card-container .card-header .container-photo {
   align-items: flex-start;
@@ -85,10 +86,19 @@ body {
   justify-content: center;
 }
 .container .card-container .card-body .informations h1 {
+  font-size: 21px;
+  font-weight: 700;
   margin-top: 65px;
   margin-bottom: 10px;
 }
+.container .card-container .card-body .informations h1 span {
+  font-size: 19px;
+  color: hsl(0deg, 0%, 59%);
+  font-weight: 400;
+}
 .container .card-container .card-body .informations h4 {
+  color: hsl(0deg, 0%, 59%);
+  font-weight: 400;
   margin-bottom: 20px;
 }
 .container .card-container .card-body hr {
@@ -98,10 +108,11 @@ body {
 }
 .container .card-container .card-body .container-status {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: center;
+  gap: 45px;
   margin-bottom: 30px;
   margin-top: 30px;
+  width: 100%;
 }
 .container .card-container .card-body .container-status .status {
   align-items: center;
@@ -109,4 +120,10 @@ body {
   gap: 7px;
   flex-direction: column;
   justify-content: center;
+}
+.container .card-container .card-body .container-status .status h3 {
+  color: hsl(0deg, 0%, 59%);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3px;
 }/*# sourceMappingURL=style.css.map */
